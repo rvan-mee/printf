@@ -7,7 +7,7 @@
 # include <stdlib.h>
 # include <string.h>
 
-int		ft_printf(const char *, ...);
+int		ft_printf(const char *str, ...);
 int		write_format(char flag, va_list *input);
 int		ft_atoi(const char *nptr);
 int		intlength(long n);
