@@ -6,7 +6,7 @@
 /*   By: rvan-mee <rvan-mee@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/01/21 16:48:03 by rvan-mee      #+#    #+#                 */
-/*   Updated: 2022/01/21 16:48:04 by rvan-mee      ########   odam.nl         */
+/*   Updated: 2022/01/21 16:56:40 by rvan-mee      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,6 @@ int	ft_putnbr(int n)
 	if (i > 9)
 		len += ft_putnbr(i / 10);
 	i %= 10;
-	i += 48;
+	i += '0';
 	return (len + write(1, &i, 1));
 }

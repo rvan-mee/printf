@@ -6,7 +6,7 @@
 /*   By: rvan-mee <rvan-mee@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/01/21 16:48:41 by rvan-mee      #+#    #+#                 */
-/*   Updated: 2022/01/21 16:48:42 by rvan-mee      ########   odam.nl         */
+/*   Updated: 2022/01/21 16:52:27 by rvan-mee      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 # define  FT_PRINTF_H
 # include <stdarg.h>
 # include <unistd.h>
-# include <stddef.h>
 # include <stdio.h>
-# include <stdlib.h>
-# include <string.h>
 
 int		ft_printf(const char *str, ...);
 int		write_format(char flag, va_list *input);

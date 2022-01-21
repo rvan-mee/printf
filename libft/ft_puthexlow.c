@@ -6,7 +6,7 @@
 /*   By: rvan-mee <rvan-mee@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/01/21 16:47:57 by rvan-mee      #+#    #+#                 */
-/*   Updated: 2022/01/21 16:47:58 by rvan-mee      ########   odam.nl         */
+/*   Updated: 2022/01/21 16:52:50 by rvan-mee      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ int	ft_puthexlow(unsigned long i)
 		len += ft_puthexlow(i / 16);
 	i %= 16;
 	if (i < 10)
-		i += 48;
+		i += '0';
 	else
-		i += 87;
+		i += 'a' - 10;
 	return (len + write(1, &i, 1));
 }
