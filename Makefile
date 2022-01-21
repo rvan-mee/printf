@@ -1,9 +1,4 @@
-SRC =	./libft/ft_atoi.c			\
-		./libft/ft_intlength.c		\
-		./libft/ft_isdigit.c		\
-		./libft/ft_isspace.c		\
-		./libft/ft_itoa.c			\
-		./libft/ft_putchar.c		\
+SRC =	./libft/ft_putchar.c		\
 		./libft/ft_puthexlow.c		\
 		./libft/ft_puthexupp.c		\
 		./libft/ft_putnbr.c			\
