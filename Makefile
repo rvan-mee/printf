@@ -7,7 +7,7 @@ SRC =	./libft/ft_putchar.c		\
 		./libft/ft_strlen.c			\
 		ft_printf.c					\
 
-CFLAGS = -Wall -Werror -Wextra -I. -o ft_printf
+CFLAGS = -Wall -Werror -Wextra -I.
 
 OBJ = $(SRC:.c=.o)
 
