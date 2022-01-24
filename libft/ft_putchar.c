@@ -6,7 +6,7 @@
 /*   By: rvan-mee <rvan-mee@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/01/21 16:47:53 by rvan-mee      #+#    #+#                 */
-/*   Updated: 2022/01/21 16:47:55 by rvan-mee      ########   odam.nl         */
+/*   Updated: 2022/01/24 12:16:13 by rvan-mee      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@
 
 int	ft_putchar(char c)
 {
-	write(1, &c, 1);
-	return (1);
+	return(write(1, &c, 1));
 }
